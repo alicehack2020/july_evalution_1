@@ -10,13 +10,28 @@ import axios from 'axios'
 const Appointments = () => {
  const [data,setData]=useState([])
   useEffect(()=>{
-axios.get("http://localhost:3004").then((res)=>setData(res))
+//axios.get("http://localhost:3004").then((res)=>setData(res))
+fetch("http://localhost:3004").then((response)=>setData(response))
   },[])
 
 
   return (
     <div>
-      
+      {
+        data.map((res)=>{
+          return(<>
+          <div>
+            <p>{res.name}</p> 
+            <p>{res.age}</p> 
+            <p>{res.appointment_details}</p> 
+            <p>{res.gender}</p> 
+            <p>{res.time}</p> 
+            <p>{res.date}</p> 
+          </div>
+           
+          </>)
+        })
+      }
     </div>
   )
 }
