@@ -1,0 +1,40 @@
+{
+  "appointment": [
+    {
+      "id":1,
+      "name":"xtz",
+      "age":24,
+      "appointment_details":"asdasd",
+      "time":"12:12:12",
+      "date":"12/12/2021",
+      "gender":"male"
+    },
+    {
+      "id":2,
+      "name":"xtz",
+      "age":24,
+      "appointment_details":"asdasd",
+      "time":"12:12:12",
+      "date":"12/12/2021",
+      "gender":"male"
+    },
+    {
+      "id":3,
+      "name":"xtz",
+      "age":24,
+      "appointment_details":"asdasd",
+      "time":"12:12:12",
+      "date":"12/12/2021",
+      "gender":"male"
+    },
+    {
+      "id":3,
+      "name":"xtz",
+      "age":24,
+      "appointment_details":"asdasd",
+      "time":"12:12:12",
+      "date":"12/12/2021",
+      "gender":"male"
+    }
+  ] 
+}
